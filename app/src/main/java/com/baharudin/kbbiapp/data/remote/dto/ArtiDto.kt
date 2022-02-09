@@ -8,7 +8,7 @@ data class ArtiDto(
     @SerializedName("kelas_kata")
     val kelasKata: String
 ) {
-    fun toArti() : Arti {
+    fun ArtiDto.toArti() : Arti {
         return Arti(
             deskripsi = deskripsi,
             kelasKata = kelasKata

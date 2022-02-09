@@ -8,7 +8,9 @@ data class DataDto(
 ) {
     fun toData() : Data {
         return Data(
-            arti = arti.map { it.toArti() },
+            arti = arti.map {
+                            it.
+            },
             lema = lema
         )
     }
