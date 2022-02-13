@@ -1,6 +1,8 @@
 package com.baharudin.kbbiapp.domain.model
 
-data class Data(
-    val arti: List<Arti>,
-    val lema: String
-)
+import com.baharudin.kbbiapp.data.remote.dto.ArtiDto
+
+data class Data (
+    val arti : List<ArtiDto>,
+    val lema : String
+        )
